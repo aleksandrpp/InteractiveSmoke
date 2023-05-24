@@ -1,0 +1,19 @@
+#pragma kernel CSMain
+
+RWStructuredBuffer<float3> _Points;
+StructuredBuffer<float3> _Inputs;
+float _Power;
+
+[numthreads(256,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    const float3 smoke_point = _Points[id.x];
+    const float3 input_point = _Inputs[id.y];
+
+    const float distance_ = distance(smoke_point, input_point);
+    const float3 direction_ = normalize(smoke_point - input_point);
+
+    _Points[id.x] = 
+        smoke_point + 
+        direction_ * smoothstep(_Power, 0, distance_);
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31de48400f174504d9f66f3163bd83c8, type: 3}
+  m_Name: SO_ShootConfig
+  m_EditorClassIdentifier: 
+  Bounds:
+    m_Center: {x: 0, y: 150, z: 0}
+    m_Extent: {x: 200, y: 200, z: 200}
+  Muzzle: {fileID: 11400000, guid: c42195ab7958b5446803debc74c7723c, type: 2}
+  Projectile: {fileID: 11400000, guid: 2c52e2575d518ae49b69be6a1176ea97, type: 2}
+  Impact: {fileID: 11400000, guid: 316b91ae7be2d874cb53bae03c2b8f28, type: 2}
+  Impulse: 100
+  MuzzleScale: 0.5
+  MuzzleDuration: 0.02
+  ImpactScale: 10
+  ImpactDuration: 0.25
+  Gravity: {x: 0, y: -4, z: 0}

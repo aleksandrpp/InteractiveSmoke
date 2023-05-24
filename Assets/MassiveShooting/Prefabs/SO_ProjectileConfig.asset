@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf46a6a4a89a7749bafcfb89ca3dde7, type: 3}
+  m_Name: SO_ProjectileConfig
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 5283261607579422976, guid: ef7de91a187a09f42a940b5f9657e70e, type: 3}
+  Material: {fileID: 2100000, guid: 809843c9308fa124aabd0642b1465084, type: 2}

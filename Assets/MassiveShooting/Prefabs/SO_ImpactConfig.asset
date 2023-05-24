@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf46a6a4a89a7749bafcfb89ca3dde7, type: 3}
+  m_Name: SO_ImpactConfig
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 424387673068981057, guid: 9f720d7a0e5559847bbcdcfb3766b974, type: 3}
+  Material: {fileID: 2100000, guid: 5c9308c16a642524da87ed20a479e15b, type: 2}
